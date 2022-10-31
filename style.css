@@ -15,7 +15,7 @@ body{
 }
 header{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     padding-top: 2%;
 }
@@ -26,12 +26,18 @@ header h1{
     color: #ff7200;
     letter-spacing: 2px;
     cursor: pointer;
+    padding-left: 3%;
 }
+
+header ul{
+    padding-top: 0.5%;
+}
+
 
 header ul li{
     list-style: none;
     display:inline-block;
-    margin-left: 40px;
+   
     
 }
 
@@ -41,6 +47,7 @@ header ul li a{
     font-size: 18px;
     font-weight: 700;
     transition: 0.3s;
+    margin-left: 100px;
 
 }
 
@@ -87,4 +94,95 @@ header button:hover {
 .search{
     display: flex;
     flex-shrink: 1;
+    padding-right: 2%;
+}
+
+main{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.descdiv{
+    width: 800px;
+    padding-left: 3%;
+}
+
+.descdiv h1{
+    font-size: 100px;
+    color: #fff;
+}
+
+.descdiv h1 span{
+    display: block;
+    color: #ff7200;
+    font-size: 130px;
+}
+
+.descdiv p{
+    color: #fff;
+    font-size: 30px;
+    letter-spacing: 1px;
+    line-height: 35px;
+}
+
+.descdiv a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    width: 135px;
+    background-color: #ff7200;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 7px;
+    margin:4% 0 0 0.5%;  
+    transition: 00.3s;
+}
+
+.descdiv a:hover{
+    color: #fff;
+}
+
+.loginbox{
+    background-color: #0000009a;
+    margin-right: 3%;
+    text-align: center;
+    width: 350px;
+    height: 500px;
+    padding-left:9px ;
+    border-radius: 7px;
+    
+}
+
+.loginbox h2{
+    color:#ff7200;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 10px;
+    width: 300px;
+    margin: 5%;  
+}
+
+.loginbox input{
+    outline: none;
+    border: none;
+    display: block;
+    width: 300px;
+    height: 50px;
+    margin: 5%;  
+    background-color: transparent;
+    border-bottom: 1px solid #ff7200;
+}
+
+.submit{
+    color:#fff !important;
+    background-color: #ff7200 !important;
+    border-radius: 7px !important;
+    padding: 10px !important;
+    width: 300px !important;
+    margin: 5% !important;  
+    color: #000 !important;
+    font-size: large !important;
+    cursor: pointer !important;
 }
