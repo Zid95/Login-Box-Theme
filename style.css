@@ -11,6 +11,7 @@ body{
     background-image: url(./images/1.jpg);
     background-position: center;
     background-size: cover;
+    font-family: sans-serif;
     
 }
 header{
@@ -122,7 +123,7 @@ main{
 
 .descdiv p{
     color: #fff;
-    font-size: 30px;
+    font-size: 23px;
     letter-spacing: 1px;
     line-height: 35px;
 }
@@ -159,9 +160,9 @@ main{
     color:#ff7200;
     background-color: #fff;
     border-radius: 7px;
-    padding: 10px;
+    padding:10px;
     width: 300px;
-    margin: 5%;  
+    margin:10% 5% 5% 5%;  
 }
 
 .loginbox input{
@@ -170,7 +171,9 @@ main{
     display: block;
     width: 300px;
     height: 50px;
-    margin: 5%;  
+    margin:10% 5% 5% 5%; 
+    font-size: 18px;
+    font-weight: 500; 
     background-color: transparent;
     border-bottom: 1px solid #ff7200;
 }
@@ -181,8 +184,69 @@ main{
     border-radius: 7px !important;
     padding: 10px !important;
     width: 300px !important;
-    margin: 5% !important;  
+    margin: 10% 5% 5% 5% !important;  
     color: #000 !important;
     font-size: large !important;
     cursor: pointer !important;
+    transition: 0.3s !important;
+}
+
+.submit:hover{
+    color: #fff !important;
+}
+
+.loginbox input:focus{
+    color: #fff;
+}
+
+.loginbox input::placeholder{
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.loginbox p {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 7%;
+    color: #fff;
+}
+
+.loginbox a{
+    color: #ff7200 ;
+    text-decoration: none ;
+    font-size: 18px ;
+    font-weight: 700 ;
+    transition: 0.3s ;
+}
+
+.loginbox a:hover{
+    color: #fff;
+}
+
+.loginbox span{
+    color: #fff;
+    font-size: 18px;
+    margin-left: 5px;
+}
+
+.loginbox h3{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 5%;
+}
+
+.loginbox span .icon{
+    display: inline-block;
+    color: #fff;
+    margin-top: 5%;
+    font-size: 30px;
+    margin-left: 3%;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.loginbox span .icon:hover{
+    color: #ff7200;
 }
