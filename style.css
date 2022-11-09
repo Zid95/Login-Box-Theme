@@ -85,18 +85,20 @@ header button{
     border-radius:0 5px 5px 0;
     color: #fff;
     font-size: large;
+    float: right;
     transition: 0.3s;
 }
 
 header button:hover {
     color: black;
+  
 }
 
+
 .search{
-    display: flex;
-    flex-shrink: 1;
     padding-right: 2%;
 }
+
 
 main{
     margin-top: 7%;
